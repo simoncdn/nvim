@@ -4,7 +4,7 @@ return {
         "themercorp/themer.lua",
         config = function()
 	      require("themer").setup({
-	          colorscheme = "dracula",
+	          colorscheme = "everforest",
               styles = {
                 heading = {
                     h1 = {},
@@ -59,7 +59,6 @@ return {
         treesitter = true,
         indentline = true,
         barbar = true,
-        bufferline = true,
         cmp = true,
         gitsigns = true,
         lsp = true,

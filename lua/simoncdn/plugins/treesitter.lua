@@ -1,5 +1,5 @@
 return {
-    'nvim-treesitter/nvim-treesitter', 
+    'nvim-treesitter/nvim-treesitter',
     run = function()
         local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
         ts_update()
@@ -8,13 +8,13 @@ return {
     config = function()
     require('nvim-treesitter.configs').setup({
         -- A list of parser names, or "all"
-        ensure_installed = { 
-        "vimdoc", 
-        "javascript", 
-        "typescript", 
-        "lua", 
-        "cmake", 
-        "css", 
+        ensure_installed = {
+        "vimdoc",
+        "javascript",
+        "typescript",
+        "lua",
+        "cmake",
+        "css",
         "html",
         "json",
         "json5",
