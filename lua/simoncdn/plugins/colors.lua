@@ -1,0 +1,122 @@
+return {
+	-- {
+	-- 	'rose-pine/neovim',
+	-- 	name = 'rose-pine',
+	-- 	config = function()
+	-- 		local rs = require('rose-pine')
+	-- 		vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+	-- 		local colors = {
+	-- 			black        = '#282828',
+	-- 			white        = '#ebdbb2',
+	-- 			red          = '#fb4934',
+	-- 			green        = '#b8bb26',
+	-- 			blue         = '#83a598',
+	-- 			yellow       = '#fe8019',
+	-- 			gray         = '#a89984',
+	-- 			darkgray     = '#3c3836',
+	-- 			lightgray    = '#504945',
+	-- 			inactivegray = '#7c6f64',
+	--
+	-- 			love         = "#eb6f92",
+	-- 			base         = "#232136",
+	-- 			text         = "#e0def4",
+	-- 			rose         = "#ea9a97",
+	-- 			subtle       = "#817c9c",
+	-- 			iris         = "#c4a7e7",
+	-- 			overlay      = "#393552",
+	-- 			pine         = "#3e8fb0",
+	-- 			foam         = "#9ccfd8"
+	-- 		}
+	-- 		rs.setup({
+	-- 			variant = 'moon',
+	-- 			--- @usage 'main'|'moon'|'dawn'
+	-- 			dark_variant = 'moon',
+	-- 			bold_vert_split_line = true,
+	-- 			dim_nc_background = true,
+	-- 			disable_background = true,
+	-- 			disable_float_background = true,
+	-- 			disable_italics = true,
+	-- 			normal = {
+	-- 				a = { bg = colors.overlay, fg = colors.text, gui = 'bold' },
+	-- 				b = { bg = colors.subtle, fg = colors.text },
+	-- 				c = { bg = colors.base, fg = colors.rose }
+	-- 			},
+	-- 			insert = {
+	-- 				a = { bg = colors.rose, fg = colors.text, gui = 'bold' },
+	-- 				b = { bg = colors.subtle, fg = colors.text },
+	-- 				c = { bg = colors.base, fg = colors.rose }
+	-- 			},
+	-- 			visual = {
+	-- 				a = { bg = colors.foam, fg = colors.overlay, gui = 'bold' },
+	-- 				b = { bg = colors.subtle, fg = colors.text },
+	-- 				c = { bg = colors.base, fg = colors.rose }
+	-- 			},
+	-- 			replace = {
+	-- 				a = { bg = colors.pine, fg = colors.text, gui = 'bold' },
+	-- 				b = { bg = colors.subtle, fg = colors.text },
+	-- 				c = { bg = colors.base, fg = colors.rose }
+	-- 			},
+	-- 			command = {
+	-- 				a = { bg = colors.overlay, fg = colors.text, gui = 'bold' },
+	-- 				b = { bg = colors.subtle, fg = colors.text },
+	-- 				c = { bg = colors.base, fg = colors.rose }
+	-- 			},
+	-- 			inactive = {
+	-- 				a = { bg = colors.overlay, fg = colors.text, gui = 'bold' },
+	-- 				b = { bg = colors.subtle, fg = colors.text },
+	-- 				c = { bg = colors.base, fg = colors.rose }
+	-- 			},
+	-- 			groups = {
+	-- 				background = 'base',
+	-- 				background_nc = '_experimental_nc',
+	-- 				panel = 'surface',
+	-- 				panel_nc = 'base',
+	-- 				border = 'highlight_med',
+	-- 				comment = 'muted',
+	-- 				link = 'iris',
+	-- 				punctuation = 'subtle',
+	--
+	-- 				error = 'love',
+	-- 				hint = 'iris',
+	-- 				info = 'foam',
+	-- 				warn = 'gold',
+	--
+	-- 				headings = {
+	-- 					h1 = 'iris',
+	-- 					h2 = 'foam',
+	-- 					h3 = 'rose',
+	-- 					h4 = 'gold',
+	-- 					h5 = 'pine',
+	-- 					h6 = 'foam',
+	-- 				},
+	-- 				-- or set all headings at once
+	-- 				-- headings = 'subtle'
+	-- 			},
+	-- 			-- Change specific vim highlight groups
+	-- 			-- https://github.com/rose-pine/neovim/wiki/Recipes
+	-- 			highlight_groups = {
+	-- 				-- TelescopeBorder = { fg = "highlight_high", bg = "none" },
+	-- 				-- TelescopeNormal = { bg = "none" },
+	-- 				-- TelescopePromptNormal = { bg = "base" },
+	-- 				-- TelescopeResultsNormal = { fg = "subtle", bg = "none" },
+	-- 				-- TelescopeSelection = { fg = "text", bg = "base" },
+	-- 				-- TelescopeSelectionCaret = { fg = "rose", bg = "rose" },
+	-- 				-- highlight_groups = {
+	-- 				-- },
+	-- 				-- ColorColumn = { bg = 'rose' },
+	-- 				--
+	-- 				-- Blend colours against the "base" background
+	-- 				CursorLine = { bg = 'foam', blend = 10 },
+	-- 				StatusLine = { fg = 'love', bg = 'love', blend = 10 },
+	-- 				--
+	-- 				-- -- By default each group adds to the existing config.
+	-- 				-- -- If you only want to set what is written in this config exactly,
+	-- 				-- -- you can set the inherit option:
+	-- 				Search = { bg = 'gold', inherit = false },
+	-- 			}
+	-- 		})
+	-- 		-- vim.cmd([[ colorscheme rose-pine ]])
+	-- 		vim.cmd('colorscheme rose-pine')
+	-- 	end,
+	-- }
+}

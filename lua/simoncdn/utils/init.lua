@@ -1,4 +1,4 @@
-lpocal Util = require("lazy.core.util")
+local Util = require("lazy.core.util")
 
 local M = {}
 
