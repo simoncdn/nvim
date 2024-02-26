@@ -30,6 +30,9 @@ return {
 			'volar',
 		})
 
+		require 'lspconfig'.volar.setup {
+			filetypes = { 'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json' }
+		}
 		-- Fix Undefined global 'vim'
 		lsp.nvim_workspace()
 		local signs = { Error = "", Warn = "", Info = "כֿ", Hint = "" }
